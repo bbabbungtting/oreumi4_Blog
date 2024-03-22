@@ -24,6 +24,7 @@ public class BlogService {
         return blogRepository.save(request.toEntity());
     }
 
+
     //글 전체 조회
     public List<Article> findAll() {
         return blogRepository.findAll();
